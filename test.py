@@ -1,9 +1,3 @@
-### Testing task 2 code:
-
-# Carry out dynamic testing on the code below.
-
-# Correct the errors below that you spotted in task 1.
-
 class CardGame:
 
     def check_for_ace(self, card):
@@ -18,10 +12,10 @@ class CardGame:
         else:
             return card2
 
-
-
     def cards_total(self, cards):
         total = 0
         for card in cards:
             total += card.value
-        return f"You have a total of {total}"
+            return "You have a total of" + total
+
+   
